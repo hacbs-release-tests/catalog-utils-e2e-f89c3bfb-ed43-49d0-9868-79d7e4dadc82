@@ -129,7 +129,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: upload
-      image: quay.io/konflux-ci/release-service-utils@sha256:34a66f958f0c06a5735478dc1a6777d5c469ab84e2d37e7b49fb3f27d6b7ea8e
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:6bf130f4eda553ebb1ff7eb7f8e641e707963aac1cc749a8f8f9f915b4b63f58
       computeResources:
         limits:
           memory: 768Mi
